@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <title>Page Formulaire:</title>
+</head>
+
+<body>
+
+ <h1>Formulaire:</h1>
+<p>
+ <input type="text" value= "Nom" name="User[Nom]" id="Nom " />
+ <br/>
+ <input type="text" value= "Prénom" name="User[Prénom]" id="Prénom" />
+ <br/>
+ <input type="text" value= "E-mail" name="User[E-mail]" id="E-mail" />
+<br/>
+ <select name="User[Pays]" id="Pays" > 
+  <optgroup label="Canada">
+   <option>Québec</option>
+   <option>Ontario</option>
+   <option>Colombie-Britannique</option>
+  </optgroup>
+  <optgroup label="États-Unis">
+   <option>Alabama</option>
+   <option>Floride</option>
+   <option>Texas</option>
+  </optgroup>
+ </select>
+<br/>
+ <input type="text" value= "Titre" name="User[Titre]" id="Titre" />
+</p>
+ 
+ <h2>Commentaire:</h2>
+<p>
+ <textarea rows="5" cols="40" name="User[Commentaire]" id="Commentaire" >
+ </textarea>
+</p>
+<p>  
+ <input type="checkbox" name="User[News Letter]" id="NewsLetter" /> News Letter
+ <input type="checkbox" checked="checked" name="User[Info On Sales]" id="InfoOnSales" /> Info On Sales
+ <input type="checkbox" name="User[Gifts]" id="Gifts" /> Gifts
+</p>	 
+</body>
+
+</html>
+
